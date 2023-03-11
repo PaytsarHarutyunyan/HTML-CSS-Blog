@@ -1,0 +1,83 @@
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container,.btn-container{
+    width: 80%;
+    margin: auto;
+}
+section,header{
+    padding: 40px 0;
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+h1,h2,h3,h4{
+    margin-bottom: 10px;
+}
+span{
+    display: block;
+    font-weight: 100;
+    color: #777;
+    font-size: 15px;
+}
+
+.btn-container{
+    padding: 20px 0;
+}
+/* header styles */
+.personal{
+    display: flex;
+    justify-content: space-between;
+}
+.header_title{
+    width: 40%;
+}
+.personal_info{
+    width: 30%;
+}
+.img-container{
+    width: 20%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+/* education styles */
+
+.education{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_info {
+    width: 85%;
+}
+
+.section_info-item-header{
+    display: flex;
+    justify-content: space-between;
+}
+.section_info-item p{
+    width: 60%;
+}
+.section_info-item{
+    margin-bottom: 20px;
+    border-left: 1px solid #777;
+    padding-left: 50px;
+}
+
+.personal_info span{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(16, 28, 28); 
+}

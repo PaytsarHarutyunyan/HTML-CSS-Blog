@@ -1,0 +1,36 @@
+h1:hover {
+    font-size: 40px;
+    color:rgb(176, 99, 176);
+    font-style: italic;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+ul li > a {
+    text-decoration: none;
+    color:rgb(16, 28, 28);
+}
+
+ul li > a:hover {
+    font-style: italic;
+    color:rgb(176, 99, 176);
+}
+
+h2:hover {
+    color:rgb(176, 99, 176);
+    font-style: italic;
+}
+
+img {
+    width: 700px;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
